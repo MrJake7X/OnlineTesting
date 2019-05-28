@@ -57,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 63e6193289e0b24468347a902f232c00, type: 2}
+  - {fileID: 2100000, guid: b6a4413e6c1a9b14581a2e73ff908064, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -135,7 +135,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 63e6193289e0b24468347a902f232c00, type: 2}
+  - {fileID: 2100000, guid: b6a4413e6c1a9b14581a2e73ff908064, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 4546480001841626633}
   - component: {fileID: 2884030460068676482}
   m_Layer: 0
-  m_Name: Survivor
+  m_Name: Killer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -231,7 +231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sceneGuid: 
   _serializerGuid: 6716706b-0206-4295-9f48-2294ac009223
-  _prefabId: 2
+  _prefabId: 1
   _updateRate: 1
   _autoFreezeProxyFrames: 0
   _clientPredicted: 1
@@ -258,4 +258,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e518463010e3504b936a676cc1c5608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 5
