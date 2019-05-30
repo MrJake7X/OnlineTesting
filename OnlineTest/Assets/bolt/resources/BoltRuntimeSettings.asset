@@ -71,6 +71,6 @@ MonoBehaviour:
   a2sServerPort: 21777
   enableA2sServer: 1
   RoomUpdateRate: 5
-  RoomCreateTimeout: 10
-  RoomJoinTimeout: 10
+  RoomCreateTimeout: 50
+  RoomJoinTimeout: 20
   enableClientMetrics: 0
