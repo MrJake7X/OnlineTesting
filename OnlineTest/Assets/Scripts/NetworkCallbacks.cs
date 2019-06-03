@@ -9,8 +9,8 @@ public class NetworkCallbacks : Bolt.GlobalEventListener
     public override void SceneLoadLocalDone(string scene)
     {
         var spawnPosition = new Vector3(Random.Range(-8, 8), 0, 0);
-        BoltNetwork.Instantiate(BoltPrefabs.Survivor, spawnPosition, Quaternion.identity);
-        /*
+        //BoltNetwork.Instantiate(BoltPrefabs.Survivor, spawnPosition, Quaternion.identity);
+        
         if (BoltNetwork.IsServer)
         {
             BoltNetwork.Instantiate(BoltPrefabs.Killer, spawnPosition, Quaternion.identity);
@@ -18,6 +18,6 @@ public class NetworkCallbacks : Bolt.GlobalEventListener
         else
         {
             BoltNetwork.Instantiate(BoltPrefabs.Survivor, spawnPosition, Quaternion.identity);
-        }*/
+        }
     }
 }
